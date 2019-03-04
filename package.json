@@ -1,13 +1,37 @@
 {
-  "name": "mage2vuestorefront",
-  "private": true,
-  "version": "1.7.1",
-  "description": "Magento sync for products, categories, users and orders",
-  "author": "Piotr Karwatka",
-  "license": "MIT",
-  "main": "src/cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "git+https://github.com/DivanteLtd/mage2vuestorefront.git",
+      "/home/don/Web/showroom/vue-storefront-api"
+    ]
+  ],
+  "_from": "git+https://github.com/DivanteLtd/mage2vuestorefront.git",
+  "_id": "mage2vuestorefront@git+https://github.com/DivanteLtd/mage2vuestorefront.git#159e717de1ec069cb5ca9032b4118229c4d717a5",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/mage2vuestorefront",
+  "_phantomChildren": {
+    "humps": "1.1.0",
+    "oauth-1.0a": "1.0.1",
+    "request": "2.88.0",
+    "winston": "2.4.4"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/DivanteLtd/mage2vuestorefront.git",
+    "rawSpec": "git+https://github.com/DivanteLtd/mage2vuestorefront.git",
+    "saveSpec": "git+https://github.com/DivanteLtd/mage2vuestorefront.git",
+    "fetchSpec": "https://github.com/DivanteLtd/mage2vuestorefront.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/DivanteLtd/mage2vuestorefront.git#159e717de1ec069cb5ca9032b4118229c4d717a5",
+  "_spec": "git+https://github.com/DivanteLtd/mage2vuestorefront.git",
+  "_where": "/home/don/Web/showroom/vue-storefront-api",
+  "author": {
+    "name": "Piotr Karwatka"
   },
   "dependencies": {
     "agentkeepalive": "^3.3.0",
@@ -32,5 +56,14 @@
     "request": "^2.88.0",
     "sha1": "^1.1.1"
   },
-  "devDependencies": {}
+  "description": "Magento sync for products, categories, users and orders",
+  "devDependencies": {},
+  "license": "MIT",
+  "main": "src/cli.js",
+  "name": "mage2vuestorefront",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.7.1"
 }
